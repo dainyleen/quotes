@@ -5,20 +5,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css"
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Be Inspired</title>
 </head>
 
 <body>
   <header>
     <h1>Inspirational Quotes</h1>
-    <button>Show another quote</button>
+    <button id="load-quote" class="load-quote">Show another quote</button>
   </header>
 
-  <div>
-    <div>
-      <p>Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.</p>
-      <p>Patrick McKenzie<span>Twitter</span><span>2016</span></p>
+  <div class="container">
+    <div id="quote-box" class="quote-box">
+      <p class="quote">"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it"</p>
+      <p class="source">Patrick McKenzie<span class="reference">Twitter</span><span class="year">2016</span></p>
     </div>
   </div>
 
