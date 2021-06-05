@@ -21,11 +21,10 @@ const quotes = [
 function getRandomQuote(arr) {
   let randomNumber = Math.floor(Math.random() * arr.length)
   let randomQuote = arr[randomNumber]
-  console.log('randomNumber')
   return randomQuote
 }
 
-getRandomQuote()
+getRandomQuote(quotes)
 
 // create another another function
 
