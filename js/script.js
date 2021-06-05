@@ -24,9 +24,26 @@ function getRandomQuote(arr) {
   return randomQuote
 }
 
-getRandomQuote(quotes)
-
 // create another another function
+function printQuote() {
+  const randomQuote = getRandomQuote(quotes)
+
+  let html = `
+    <p class="quote">${randomQuote.quote}</p>
+    <p class="source">${randomQuote.source}
+  `
+
+  if (randomQuote.reference !== undefined) {
+    html += `<span class="reference">${randomQuote.reference}</span>`
+  }
+
+  if (randomQuote.year !== undefined) {
+    html += `<span class="year">${randomQuote.year}</span>`
+  }
+
+  html += `</p>`
+  document.getElementById('quote-box').innerHTML = html
+}
 
 // event listener: this is already given 
-// document.getElementById('load-quote').addEventListener('click', printQuote, false)
+document.getElementById('load-quote').addEventListener('click', printQuote, false)
