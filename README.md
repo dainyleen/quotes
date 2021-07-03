@@ -2,7 +2,7 @@
 I would like to start my day with something positive and inspiring
 
 ### Be inspired
- https://dainyleen.github.io/quotes
+https://dainyleen.github.io/quotes
 
 ### Tech Talk
 1. Create array of objects 
