@@ -1,7 +1,7 @@
 # Quotes
 I would like to start my day with something positive and inspiring
 
-### Be inspired
+## GitHub Page
 https://dainyleen.github.io/quotes
 
 ### Tech Talk
