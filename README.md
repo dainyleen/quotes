@@ -10,4 +10,3 @@ https://dainyleen.github.io/quotes
 3. Use Math.random and Math.floor
 4. Use innerHTML tos show the quotes in the browser without using other much more advanced ways of doing it
 
-###### The project concept is from TeamTreehouse - Tech Degree curriculum
